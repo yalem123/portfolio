@@ -8,20 +8,24 @@ body {
   color: #444444; /* Slightly darker text color */
 }
 
-/* Container */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Navigation */
 nav {
-  background-color: #333;
+  background-color: blueviolet;
   color: #fff;
   padding: 10px 0;
 }
-
+.navbarScroll.navbarDark {
+  background-color: black;
+}
 .brand {
   margin-left: 20px;
 }
@@ -62,6 +66,7 @@ nav {
 .hero-content {
   max-width: 600px;
   margin: 0 auto;
+  flex: 1;
 }
 
 .hero h2 {
@@ -73,7 +78,11 @@ nav {
   font-size: 1.5em;
   margin-bottom: 30px;
 }
-
+.hero-content .buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
 .btn {
   display: inline-block;
   background-color: #ff5733;
@@ -90,8 +99,7 @@ nav {
 
 /* Profile image */
 .profile-image {
-  display: inline-block;
-  vertical-align: middle;
+  flex: 1;
 }
 
 .profile-image img {
@@ -125,6 +133,11 @@ nav {
 .about-image img {
   max-width: 100%; /* Ensure the image doesn't exceed its container */
   height: auto; /* Maintain aspect ratio */
+}
+.project {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 /* Footer */
