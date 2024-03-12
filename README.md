@@ -2,11 +2,11 @@ Welcome to my portfolio website repository! This website showcases my skills, pr
 
 ## Table of Contents
 
-About
-contact
-Technologies Used
-Setup Instructions
-Usage
+- About
+- contact
+- Technologies Used
+- Setup Instructions
+- Usage
 
 ## About
 
